@@ -1,4 +1,4 @@
-# Spotify Homepage Clone
+# Spotify Homepage 
 
 This project is a **responsive clone** of the Spotify homepage, designed to mimic the look and feel of Spotify's landing page. It demonstrates the use of **HTML**, **CSS**, and **JavaScript** for creating visually appealing and responsive web pages.
 
