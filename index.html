@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player : Music for Everyone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/logo.jpeg">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Left Side -->
+            <div class="d-flex align-items-center">
+                <img src="assets/logo.jpeg" alt="Spotify Logo" class="spotify-logo">
+                <i class="fa-solid fa-home nav-icon"></i>
+                <div class="search-box">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" class="search-input" placeholder="What do you want to play?">
+                    <span class="divider">|</span>
+                    <i class="fa-solid fa-list"></i>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="d-flex align-items-center">
+                <a href="#" class="nav-link">Premium</a>
+                <a href="#" class="nav-link">Support</a>
+                <a href="#" class="nav-link">Download</a>
+                <span class="divider">|</span>
+                <i class="fa-solid fa-download nav-icon"></i>
+                <a href="#" class="nav-link">Install App</a>
+                <a href="#" class="nav-link">Sign up</a>
+                <button class="btn btn-light login-btn">Log in</button>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <h6 class="fw-bold" style="margin-bottom: 50px;">Your Library <span class="float-end" style="font-size: 27px; font-weight: normal; color:gray;">+</span></h6>
+        
+        <div class="bg-dark p-3 rounded mb-3" >
+            <h6 class="fw-bold">Create your first playlist</h6>
+            <p class="text-muted small" style="color: white !important;">It's easy, we'll help you</p>
+            <button class="btn btn-custom">Create playlist</button>
+        </div>
+        
+        <div class="bg-dark p-3 rounded " style="margin-bottom: 5rem">
+            <h6 class="fw-bold">Let's find some podcasts to follow</h6>
+            <p class="text-muted small" style="color: white !important;">We'll keep you updated on new episodes</p>
+            <button class="btn btn-custom">Browse podcasts</button>
+        </div>
+
+        <div class="footer-links mt-4">
+            <a href="#">Legal</a>
+            <a href="#">Safety & Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Cookies</a>
+        </div>
+
+        <button class="language-btn mt-3">
+            <i class="fas fa-globe"></i> English
+        </button>
+
+        </div>
+
+
+        <div class="content">
+            <h3>Trending songs</h3>
+            <div class="songs-container">
+                <div class="song-card">
+                    <img src="assets/song1.jpg" alt="Premalo">
+                    <p class="song-title">Premalo (From "Court")</p>
+                    <p class="song-artist">Vijai Bulganin,Anurag Kulkarni</p>
+                </div>
+                <div class="song-card">
+                    <img src="assets/song2.jpg" alt="Godari Gattu Meedha">
+                    <p class="song-title">Godari Gattu Meedha</p>
+                    <p class="song-artist">Ramana Gogula,Madhupriya</p>
+                </div>
+                <div class="song-card">
+                    <img src="assets/song3.jpg" alt="Chuttamalle">
+                    <p class="song-title">Chuttamalle</p>
+                    <p class="song-artist">Shilpa Rao,Anirudh Ravichander</p>
+                </div>
+                <div class="song-card">
+                    <img src="assets/song4.jpeg" alt="NaaNaa Hyraana">
+                    <p class="song-title">NaaNaa Hyraana</p>
+                    <p class="song-artist">Thaman S,Karthik,Shreya Ghoshal</p>
+                </div>
+                <div class="song-card">
+                    <img src="assets/song5.jpeg" alt="Pushpa Pushpa">
+                    <p class="song-title">Pushpa Pushpa</p>
+                    <p class="song-artist">Nakash Aziz,Deepika Blue,Devi Sri Prasad</p>
+                </div>
+                <div class="song-card">
+                    <img src="assets/song6.jpg" alt="Mawa Enthaina">
+                    <p class="song-title">Mawa Enthaina</p>
+                    <p class="song-artist">Thaman S,Sri Krishna</p>
+                </div>
+
+                <!--Your Albums Section -->
+    <div class="section">
+        <h3>Your Albums</h3>
+        <div class="songs-container">
+            <div class="song-card">
+                <img src="assets/song7.jpeg" alt="Hi Nanna">
+                <p class="song-title">Hi Nanna</p>
+                <p class="song-artist">Hesham Abdul Wahab</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song8.jpeg" alt="Godavari">
+                <p class="song-title">Godavari</p>
+                <p class="song-artist">K M Radhakrishnan</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song9.jpeg" alt="Arjun Reddy">
+                <p class="song-title">Arjun Reddy</p>
+                <p class="song-artist">Radhan</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song10.jpeg" alt="Agnyaathavasi">
+                <p class="song-title">Agnyaathavasi</p>
+                <p class="song-artist">Anirudh Ravichander</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song11.jpeg" alt="Sita Ramam">
+                <p class="song-title">Sita Ramam</p>
+                <p class="song-artist">Various Artists</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song12.jpeg" alt="Radhe Shyam">
+                <p class="song-title">Radhe Shyam</p>
+                <p class="song-artist">Justin Prabhakar</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- New Section Below -->
+    <div class="section">
+        <h3>Recommended for you</h3>
+        <div class="songs-container">
+            <div class="song-card">
+                <img src="assets/song13.jpg" alt="Song 13">
+                <p class="song-title">Ninnu Chuse Anandamlo</p>
+                <p class="song-artist">Anirudh Ravichander,Sid Sriram</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song14.jpeg" alt="Song 14">
+                <p class="song-title">O Kalala Kathala</p>
+                <p class="song-artist">Sathyaprakash , Chinmayi</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song15.jpeg" alt="Song 15">
+                <p class="song-title">Kumkumala(From "Bhramastram")</p>
+                <p class="song-artist">Pritam,Sid Sriram</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song16.jpeg" alt="Song 10">
+                <p class="song-title">Darshana - From"Hridayam"</p>
+                <p class="song-artist">Hesham Abdul Wahab,Darshana Rajendar</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song17.jpg" alt="Song 11">
+                <p class="song-title">Neeve</p>
+                <p class="song-artist">Yazin Nizar</p>
+            </div>
+            <div class="song-card">
+                <img src="assets/song18.jpg" alt="Song 12">
+                <p class="song-title">Ee Raathale(From "Radhe Shyam")</p>
+                <p class="song-artist">Yuvan Shankar Raja, Harini Ivaturi</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer Section -->
+<div class="footer">
+    <div class="footer-column">
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Jobs</a>
+        <a href="#">For the Record</a>
+    </div>
+    <div class="footer-column">
+        <h4>Communities</h4>
+        <a href="#">For Artists</a>
+        <a href="#">Developers</a>
+        <a href="#">Advertising</a>
+        <a href="#">Investors</a>
+        <a href="#">Vendors</a>
+    </div>
+    <div class="footer-column">
+        <h4>Useful links</h4>
+        <a href="#">Support</a>
+        <a href="#">Free Mobile App</a>
+    </div>
+    <div class="footer-column">
+        <h4>Spotify Plans</h4>
+        <a href="#">Premium Individual</a>
+        <a href="#">Premium Duo</a>
+        <a href="#">Premium Family</a>
+        <a href="#">Premium Student</a>
+        <a href="#">Spotify Free</a>
+    </div>
+    <div class="footer-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</div>
+
+<!-- Footer Bottom -->
+<div class="footer-bottom">
+    © 2025 Spotify AB
+</div>
+            
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
